@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    outline: 1px solid black;
+    overflow: hidden;
+}
+
+.cell {
+    width: 6.24%;
+    padding-bottom: 6.24%;
+}
