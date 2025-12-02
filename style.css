@@ -4,11 +4,51 @@
     box-sizing: border-box;
 }
 
-/* 
-- Use flexbox for grid
-- Add hover so grid changes color
-on mouseover and ends when you leave 
-it (add new class? change bg color in js?)
-- also add random colors
-- add darkening effect
-*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 50px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    outline: 1px solid black;
+}
+
+.btn-container {
+    display: flex;
+    gap: 25px;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    width: 150px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.square {
+  box-sizing: border-box;
+  aspect-ratio: 1 / 1;      
+  outline: 1px solid black;
+}
+
+ 
+
+
