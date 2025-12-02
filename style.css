@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+- Use flexbox for grid
+- Add hover so grid changes color
+on mouseover and ends when you leave 
+it (add new class? change bg color in js?)
+- also add random colors
+- add darkening effect
+*/
